@@ -1,4 +1,4 @@
 package com.example.mscredit.config;
 
-public class Router {
+public class WebClientConfig {
 }
