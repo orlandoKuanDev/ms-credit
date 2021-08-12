@@ -20,6 +20,9 @@ public class Credit {
     @Field(name = "amount")
     private Double amount;
 
+    @Field(name = "customerIdentityNumber")
+    private String customerIdentityNumber;
+
     @Field(name = "description")
     private String description = "";
 
