@@ -3,5 +3,6 @@ spring:
     name: service-credit
   cloud:
     config:
-      uri: http://localhost:8090
-  profiles:    active: dev
+      uri: https://p3-config-server.azurewebsites.net/
+  profiles:
+    active: dev
